@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <link rel="icon" type="jpeg" href="favicon.jpg">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Titans</title>
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 30px;
+                background-color: darkred;
+            }
+            header h1{
+                color:White;
+                font-size: 40px;
+                font-family: 'Courier New', Courier, monospace;
+                text-shadow: 5px 5px 5px black;
+                text-transform: uppercase;
+                animation: myopacity;
+                animation-iteration-count: 1;
+                animation-play-state: running;
+                animation-duration: 2s;
+            }
+            main img{
+                width:300px;
+                height:200px;
+                border-style:solid;
+                border-color:orangered;
+                border-width: 5px;
+                margin:30px;
+            }
+            .picture{
+                display:flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            main{
+                background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(seabackground.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .information li{
+                color:White;
+                font-size:20px;
+                line-height: 5px;
+                display:flex;
+                justify-content: center;
+            }
+            main h2{
+                font-size:40px;
+                color:white;
+                text-align: center;
+                background-color: darkred;
+            }
+
+            .button{
+                background-color: darkred;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .but{
+                font-size: 40px;
+                color:black;
+                text-decoration: none;
+                background-color: white;
+                padding:10px;
+                margin:10px;
+                border-radius: 50px;
+                transition:1.5s;
+            }
+            .button a:hover{
+                background-color: grey;
+                transform:scale(1.15);
+            }
+            .picture a{
+                transition:1.5s;
+            }
+            .picture a:hover{
+                transform: scale(1.5);
+            }
+            .list li{
+                font-size:25px;
+                text-align: left;
+                border-style:dotted;
+                border-width:5px;
+                border-color: black;
+                padding: 10px;
+                background-color: rgb(243, 192, 218);
+                font-family:cursive,monospace,'Times New Roman', Times, serif;
+                color:darkred;
+            }
+            @keyframes myopacity {
+                50%{opacity: 0;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Warhammer Titan</h1>
+        </header>
+        <main>
+            <div><section class="picture">
+                <a href="warhammergif.gif" target="_blank"><img src="warhammergif.gif" alt="War Hammer Titan gif" title="The War Hammer Titan"></a>
+                <a href="war-hammer.jpg" target="_blank"><img src="war-hammer.jpg" alt="Picture of War Hammer Titan" title="The War Hammer Titan"></a>
+            </section></div>
+            <div><section class="information">
+                <ul><pre>
+                    <li>Name   : Lara Tybur</li>
+                    <li>Gender   : Female</li>
+                    <li>Age   : 24</li>
+                    <li>Height   : 160cm</li>
+                    <li>Titan Height   : 15m</li>
+                    <li>Weight   : 53kg</li>
+                    <li>Status   : Deceased</li>
+                </ul></pre></div>
+            </section>
+            <h2>Abilities</h2>
+            <div>
+                <ol class="list">
+                    <li>1.  Structural hardening: The signature ability of Lara's War Hammer Titan was the power to effortlessly generate massive spike-like structures out of hardened Titan flesh, ranging from ground spikes small enough to go unnoticed by other Titan opponents or massive pikes large enough to impale the 15-meter Attack Titan far above the ground. This structural hardening also allowed for the War Hammer to create objects such as weapons, notably the signature war hammer for which her Titan is named. Much like the Female Titan, Lara could use this ability to encase herself in a crystalline barrier, though she retains consciousness in order to be able to control her Titan body.
+                    </li><br>
+                    <li>2.  Regeneration: Like all others with the power of the Titans, Lara was able to regenerate any wounds received in battle. After receiving a devastating barrage of punches from the Attack Titan with no defensive measures, she was able to fully regenerate her Titan's missing flesh and limbs in a matter of minutes.
+                    </li><br>
+                    <li>3.  Remote operation: While encased in crystal, Lara could create a body of a Titan to be remotely controlled from a distance, enabling her to regenerate her entire Titan body without sustaining any damage to her human form, as well as circumventing the typical weakness of the Titan's nape. The crystal and the Titan body were connected to her through a long cable of flesh. When this ability was utilized, she generated the body of the War Hammer Titan from the feet upwards rather than from the nape outwards.
+                    </li><br>
+                </ol></div>
+        </main>
+        <footer>
+            <div class="button"><a href="index.html" class="but" title="Back to home">Back</a>
+            </div>
+        </footer>
+    </body>
+</html>

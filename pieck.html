@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <link rel="icon" type="jpeg" href="favicon.jpg">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Titans</title>
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 30px;
+                background-color: darkred;
+            }
+            header h1{
+                color:White;
+                font-size: 40px;
+                font-family: 'Courier New', Courier, monospace;
+                text-shadow: 5px 5px 5px black;
+                text-transform: uppercase;
+                animation: myopacity;
+                animation-iteration-count: 1;
+                animation-play-state: running;
+                animation-duration: 2s;
+            }
+            main img{
+                width:300px;
+                height:200px;
+                border-style:solid;
+                border-color:orangered;
+                border-width: 5px;
+                margin:30px;
+            }
+            .picture{
+                display:flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            main{
+                background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(seabackground.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .information li{
+                color:White;
+                font-size:20px;
+                line-height: 5px;
+                display:flex;
+                justify-content: center;
+            }
+            main h2{
+                font-size:40px;
+                color:white;
+                text-align: center;
+                background-color: darkred;
+            }
+
+            .button{
+                background-color: darkred;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .but{
+                font-size: 40px;
+                color:black;
+                text-decoration: none;
+                background-color: white;
+                padding:10px;
+                margin:10px;
+                border-radius: 50px;
+                transition:1.5s;
+            }
+            .button a:hover{
+                background-color: grey;
+                transform:scale(1.15);
+            }
+            .picture a{
+                transition:1.5s;
+            }
+            .picture a:hover{
+                transform: scale(1.5);
+            }
+            .list li{
+                font-size:25px;
+                text-align: left;
+                border-style:dotted;
+                border-width:5px;
+                border-color: black;
+                padding: 10px;
+                background-color: rgb(243, 192, 218);
+                font-family:cursive,monospace,'Times New Roman', Times, serif;
+                color:darkred;
+            }
+            @keyframes myopacity {
+                50%{opacity: 0;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Cart Titan</h1>
+        </header>
+        <main>
+            <div><section class="picture">
+                <a href="cartgif.gif" target="_blank"><img src="cartgif.gif" alt="Cart Titan gif" title="The Cart Titan"></a>
+                <a href="cart.jpeg" target="_blank"><img src="cart.jpeg" alt="Picture of Cart Titan" title="The Cart Titan"></a>
+            </section></div>
+            <div><section class="information">
+                <ul><pre>
+                    <li>Name   : Pieck Finger</li>
+                    <li>Gender   : Female</li>
+                    <li>Age   : 24</li>
+                    <li>Height   : 155cm</li>
+                    <li>Titan Height   : 4m</li>
+                    <li>Weight   : 42kg</li>
+                    <li>Status   : Alive</li>
+                </ul></pre></div>
+            </section>
+            <h2>Abilities</h2>
+            <div>
+                <ol class="list">
+                    <li>1.  Speed: Like the Jaw Titan, Pieck's Titan possessed incredible speed. During the Battle of Shiganshina District, Pieck was able to successfully retake Zeke from his devastated Beast Titan form during his fight against Levi Ackermann, he himself noted for his immense speed. This incapacitated him long enough for them to make their escape.
+                    </li><br>
+                    <li>2.  Enhanced Strength: Like all humans with the power of the Titans, Pieck's Titan form was physically stronger than Pure Titans, despite its small size. Due to the unique quadrupedal appearance of the Cart Titan, she was oftentimes used as a pack mule, being able to carry cargo and battle equipment across her Titan's back.
+                    </li><br>
+                    <li>3.  Enhanced Transformation Endurance: While most other humans containing the power of the Titans were unable to stay in their Titan forms for extended periods of time, Pieck was able to remain in this form for extremely long periods of time due to the power of her Cart Titan. However, due to her Titan form walking on all fours, Pieck oftentimes forgot how to walk on two legs after leaving Titan form. After the Marley Mid-East War, Pieck stated that she spent around two months in her Titan form, and as a result, has begun to walk with the aid of a crutch.
+                    </li><br>
+                    <li>4.  Communication: Pieck was one of the few Titan inheritors seen to be capable of fluent speech without issue in her Titan form. During the Battle of Shiganshina, she acted as a scout for Zeke and Reiner, warning them of the incoming Scout Regiment soldiers. She shared this ability with Ymir, Zeke, and Lara Tybur.
+                    </li><br>
+                    <li>5.  Partial Transformation: Pieck has also shown the capability to partially transform. She was able to partially emerge from the nape of her Titan and communicate with others, as well as still control her Titan form while emerged from her nape.
+                    </li><br>
+                </ol></div>
+        </main>
+        <footer>
+            <div class="button"><a href="index.html" class="but" title="Back to home">Back</a>
+            </div>
+        </footer>
+    </body>
+</html>

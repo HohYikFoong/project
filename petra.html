@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <link rel="icon" type="jpeg" href="favicon.jpg">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Humans</title>
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 30px;
+                background-color: darkred;
+            }
+            header h1{
+                color:White;
+                font-size: 40px;
+                font-family: 'Courier New', Courier, monospace;
+                text-shadow: 5px 5px 5px black;
+                text-transform: uppercase;
+                animation: myopacity;
+                animation-iteration-count: 1;
+                animation-play-state: running;
+                animation-duration: 2s;
+            }
+            main img{
+                width:300px;
+                height:200px;
+                border-style:solid;
+                border-color:orangered;
+                border-width: 5px;
+                margin:30px;
+            }
+            .picture{
+                display:flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            main{
+                background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(seabackground.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            li{
+                color:White;
+                font-size:20px;
+                line-height: 5px;
+                display:flex;
+                justify-content: center;
+            }
+            main h2{
+                font-size:40px;
+                color:white;
+                text-align: center;
+                background-color: darkred;
+            }
+            main p{
+                background-color: black;
+                color:white;
+                text-shadow: -8px 5px 8px lightgreen;
+                text-align: left;
+                font-size: 20px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .button{
+                background-color: darkred;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .but{
+                font-size: 40px;
+                color:black;
+                text-decoration: none;
+                background-color: white;
+                padding:10px;
+                margin:10px;
+                border-radius: 50px;
+                transition:1.5s;
+            }
+            .button a:hover{
+                background-color: grey;
+                transform:scale(1.15);
+            }
+            .picture a{
+                transition:1.5s;
+            }
+            .picture a:hover{
+                transform: scale(1.5);
+            }
+            @keyframes myopacity {
+                50%{opacity: 0;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Petra Ral</h1>
+        </header>
+        <main>
+            <div><section class="picture">
+                <a href="petragif.gif" target="_blank"><img src="petragif.gif" alt="Petra gif" title="Petra Ral"></a>
+                <a href="petrapic.jpeg" target="_blank"><img src="petrapic.jpeg" alt="Picture of Petra" title="Petra Ral"></a>
+            </section></div>
+            <div><section class="information">
+                <ul><pre>
+                    <li>Name   : Petra Ral</li>
+                    <li>Gender   : Female</li>
+                    <li>Age   : 23</li>
+                    <li>Height   : 158cm</li>
+                    <li>Weight   : 55kg</li>
+                    <li>Status   : Deceased</li>
+                </ul></pre>
+                <h2>Personality</h2>
+                <p>Petra looked up to Levi Ackerman as a captain and cared deeply for her team, but was notably at odds with Oluo, due to his tendency to imitate Levi.
+                   <br><br>
+                   Petra was kind and caring, as shown when she looked after and guided Eren when he was first admitted to the squad. She seemed to have acted as some sort of attachment figure for Eren among Levi's Squad as she was the one shown to worry about him. Although all of Levi's squad wished (and demanded, to an extent) Eren's unconditional trust, it was ultimately Petra who convinced him to do so.
+                   <br><br>
+                   Despite her kind nature, Petra was a conditioned soldier with a quick reaction time against perceived danger. She displayed extreme loyalty to her leaders, superiors and was ready to react in any given moment, such as the time when Eren accidentally transformed into a half Titan.
+                   <br><br>
+                   She also showed the most remorse over her reaction to Eren's accidental transformation. Along with her comrades, she had bitten her hand just like Eren, signifying that they had established a close bond.
+                   <br><br>
+                </p>
+            </section>
+            </div>
+        </main>
+        <footer>
+            <div class="button"><a href="index.html" class="but" title="Back to home">Back</a>
+            </div>
+        </footer>
+    </body>
+</html>

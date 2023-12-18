@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <link rel="icon" type="jpeg" href="favicon.jpg">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Products</title>
+        <style type="text/css">
+
+            header{
+                color:white;
+                font-size:20px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                line-height: 50px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                text-shadow:5px 6px 10px yellow;
+                animation: myopacity;
+                animation-iteration-count: 1;
+                animation-play-state: running;
+                animation-duration: 1.5s;
+                }
+
+            main{
+                background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(productbackground.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height:700px;
+                width:auto;
+            }
+            .picture{
+                border-style:ridge;
+                border-color:blue;
+                border-width:10px;
+                transition:1.5s;
+            }
+            .picture:hover{
+                transform:scale(1.1);
+            }
+            .image{
+                display: flex;
+                justify-content: center;
+                padding-top:5vw;
+                }
+            li{
+                color:white;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                display:flex;
+                justify-content: center;
+                margin-top:20px;
+                padding-top:30px;
+                line-height: 20px;
+                transition: 1.5s;
+            }
+            .button{
+                font-size:40px;
+                font-family:fantasy;
+                margin:40px;
+                padding:10px;
+                border-radius:10px;
+                background-color: white;
+                transition:1.5s;
+            }
+            .button a{
+                text-decoration: none;
+            }
+            .buyback{
+                display:flex;
+                justify-content: center;
+                     }
+            .button:hover{
+                color:black;
+                background-color: tomato;
+                transform: scale(1.25);
+            }
+
+             @keyframes myopacity{
+             20%{opacity:0};
+                }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Attack On Titan Shoes – Attack On Titan’s Logo Blue High-Top</h1>
+        </header>
+        <main>
+        <div class="image"><a href="product4.jpg" target="_blank"><img src="product4.jpg" alt="AoT Shoe" class="picture" title="AoT Shoe" style="width:200px; height: auto;"></a>
+            </div>
+            <p>
+                <ul>
+                    <li>Name: <strong style="text-shadow: 5px 5px 5px red;">Attack On Titan's Logo Blue High-Top</strong></li>
+                    <li>Price: <b style="text-shadow: 5px 5px 5px lightseagreen">$80.10</b></li>
+                    <li>Description: <strong style="text-shadow: 5px 5px 5px darkblue">Beautiful, trending, and affordable shoe designed for everyone, no matter how old are you.</strong></li>
+                </ul>
+                <div class="buyback">
+                <div class="button"><a href="https://attackontitanmerch.store/shop/attack-on-titan-shoes-merch-attack-on-titans-logo-blue-high-top/" target="_blank" style="color:black">Buy</a></div>
+                <div class="button"><a href="index.html" style="color:black">Back</a></div>
+                </div>
+            </p>
+        </main>
+    </body>
+    </html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <link rel="icon" type="jpeg" href="favicon.jpg">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Titans</title>
+        <style type="text/css">
+            *{
+                margin:0;
+                padding:0;
+            }
+            header{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 30px;
+                background-color: darkred;
+            }
+            header h1{
+                color:White;
+                font-size: 40px;
+                font-family: 'Courier New', Courier, monospace;
+                text-shadow: 5px 5px 5px black;
+                text-transform: uppercase;
+                animation: myopacity;
+                animation-iteration-count: 1;
+                animation-play-state: running;
+                animation-duration: 2s;
+            }
+            main img{
+                width:300px;
+                height:200px;
+                border-style:solid;
+                border-color:orangered;
+                border-width: 5px;
+                margin:30px;
+            }
+            .picture{
+                display:flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            main{
+                background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(seabackground.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .information li{
+                color:White;
+                font-size:20px;
+                line-height: 5px;
+                display:flex;
+                justify-content: center;
+            }
+            main h2{
+                font-size:40px;
+                color:white;
+                text-align: center;
+                background-color: darkred;
+            }
+
+            .button{
+                background-color: darkred;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .but{
+                font-size: 40px;
+                color:black;
+                text-decoration: none;
+                background-color: white;
+                padding:10px;
+                margin:10px;
+                border-radius: 50px;
+                transition:1.5s;
+            }
+            .button a:hover{
+                background-color: grey;
+                transform:scale(1.15);
+            }
+            .picture a{
+                transition:1.5s;
+            }
+            .picture a:hover{
+                transform: scale(1.5);
+            }
+            .list li{
+                font-size:25px;
+                text-align: left;
+                border-style:dotted;
+                border-width:5px;
+                border-color: black;
+                padding: 10px;
+                background-color: rgb(243, 192, 218);
+                font-family:cursive,monospace,'Times New Roman', Times, serif;
+                color:darkred;
+            }
+            @keyframes myopacity {
+                50%{opacity: 0;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Founding Titan</h1>
+        </header>
+        <main>
+            <div><section class="picture">
+                <a href="foundinggif.gif" target="_blank"><img src="foundinggif.gif" alt="Founding Titan gif" title="The Founding Titan"></a>
+                <a href="FoundingTitan.webp" target="_blank"><img src="FoundingTitan.webp" alt="Picture of Founding Titan" title="The Founding Titan"></a>
+            </section></div>
+            <div><section class="information">
+                <ul><pre>
+                    <li>Name   : Ymir Fritz</li>
+                    <li>Gender   : Female</li>
+                    <li>Age   : Unknown</li>
+                    <li>Height   : Unknown</li>
+                    <li>Titan Height   : 200m</li>
+                    <li>Weight   : Unknown</li>
+                    <li>Status   : Deceased</li>
+                </ul></pre></div>
+            </section>
+            <h2>Abilities</h2>
+            <div>
+                <ol class="list">
+                    <li> Ymir was the very first Titan and the only one to ever possess the complete power of the Titans; all who came after her merely possessed fragments of her power. Her Titan body was immense, even by Titan standards, and easily towered above the treeline. Using her immense strength, she effortlessly wiped out Marley's forces. She was also very skilled at controlling her Titan, as she performed complex tasks such as building bridges across mountains and cultivating the fields.
+                        <br><br>
+                        It was said that nobody could surpass Ymir and that because Ymir died 13 years after awakening her powers, no one was allowed to live beyond that; this phenomenon was known as the "Curse of Ymir."
+                        <br><br>
+                        After Ymir's death, her spirit lived on in a world where the Coordinate resides. She was responsible for all Titan transformations throughout history: whenever the power of the Titans was invoked, she built the Titan bodies out of the otherworldly sand. She was also responsible for regeneration and re-sculpted Zeke's body after he was blown up. It reportedly took Ymir a very long time to create these bodies: Zeke said it took her "years" to build him a single human body, but because the world in which she lived transcends time, the process was almost an instant in the physical world. According to Zeke, Ymir could create anything, even chains that represent the "vow of renouncing war."
+                        <br><br>
+                        Ymir was also the source of the Founding Titan's power. From controlling other Titans to creating the Wall Titans to altering the bodies of the Subjects of Ymir, all of the Founding Titan's feats were done by Ymir after she was given the order, either by a scream or in person through the world where Ymir resided. However, because Ymir was Fritz's slave, she only listened to the commands of the royal family; thus, only the royal family could use the Founder's power.
+                        <br><br>
+                        Eren Jaeger became the exception to this, as he invoked the Founder on two occasions. The first was when he punched Dina Fritz's Pure Titan and commanded Ymir to make the surrounding Titans attack Dina; and after she was killed, he turned them against Reiner Braun. The second was when Eren convinced Ymir that she has a will of her own, freeing her from the royal family's control, and she lent her power to Eren instead of Zeke.                        
+                    </li>
+                </ol></div>
+        </main>
+        <footer>
+            <div class="button"><a href="index.html" class="but" title="Back to home">Back</a>
+            </div>
+        </footer>
+    </body>
+</html>
